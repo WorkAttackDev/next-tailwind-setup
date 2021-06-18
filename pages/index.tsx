@@ -5,7 +5,7 @@ import Head from 'next/head';
 export default function Home() {
   return (
     <main>
-      <header>
+      <header className="flex justify-between">
         <h1>logo</h1>
         <HiMenuAlt3 />
       </header>
